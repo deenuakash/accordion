@@ -6,9 +6,46 @@
 
 .container {
     max-width: 100%;
+    text-align: center;
 }
 
 h1 {
     margin: 0 auto;
     width: fit-content;
+}
+
+.accordion {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.question-container {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.answer {
+    background: #eee;
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
 }
